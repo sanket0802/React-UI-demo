@@ -3,7 +3,7 @@ import { Layout, List, Tabs, Button, Form, Input, Spin } from "antd";
 import "./App.css";
 
 const { Content } = Layout;
-const API_URL = "http://localhost:3000";
+const API_URL = "https://node-vercel-api-demo.vercel.app";
 
 const App = () => {
   const [users, setUsers] = useState([]);
